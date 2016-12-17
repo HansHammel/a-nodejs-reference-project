@@ -1,7 +1,7 @@
 {
   "name": "a-nodejs-reference-project",
   "description": "A reference node.js project with best practices tooling and workflow automation",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Oliver Bleckmann",
     "url": "https://github.com/HansHammel"
