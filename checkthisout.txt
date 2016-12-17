@@ -1,0 +1,4 @@
+https://github.com/bahmutov/next-update 
+https://github.com/bahmutov/changed-log 
+https://github.com/bahmutov/dont-break 
+https://github.com/bahmutov/next-updater 

@@ -1,0 +1,17 @@
+{
+  "name": "loadbalancer-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "latest",
+    "express-subdomain": "latest",
+    "redbird": "latest",
+    "http-proxy-middleware": "latest"
+  }
+}

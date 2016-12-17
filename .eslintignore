@@ -1,0 +1,15 @@
+# /node_modules/* and /bower_components/* ignored by default
+
+# Ignore built files except build/index.js
+build/*
+!build/index.js
+/lib/ws-loadbalancer-redis/node_modules/
+/lib/socket.io-scale/node_modules/
+/lib/examples/node_modules/
+/backup/
+/exe/
+**/out/
+node_modules/**
+*.min.js
+bundle.js
+coverage/**

@@ -70,3 +70,44 @@ bower_packages
 /lib/ws-loadbalancer-redis/node_modules/
 /lib/socket.io-scale/node_modules/
 /lib/examples/node_modules/
+
+
+# npmignore - content above this line is automatically generated and modifications may be omitted
+# see npmjs.com/npmignore for more details.
+# above is the gitignore part
+# the specific part for npm starts here
+#screenshots
+screenshots/
+#backup folder
+backup/
+#example project - we dont commit examples to npm
+example/
+#dev files
+#.npmrc
+#build tools
+.travis.yml
+.jenkins.yml
+.codeclimate.yml
+circle.yml
+#linters
+.jscsrc
+.jshintrc
+.eslintrc*
+.jshintignore
+.eslintrc
+# Utilities
+.editorconfig
+# Directories
+build/
+docs/
+examples/
+reports/
+support/
+test/
+benchmark/
+#files
+Makefile
+README.md
+TODO.md
+/backup/
+/exe/
