@@ -13,3 +13,4 @@ node_modules/**
 *.min.js
 bundle.js
 coverage/**
+.idea/**

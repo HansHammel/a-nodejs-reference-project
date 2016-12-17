@@ -1,0 +1,13 @@
+--reporter spec
+--async-only
+--colors
+--sort
+--timeout 20000
+--ui bdd
+--check-leaks
+--harmony
+--inline-diffs
+--recursive
+--retries 0
+--throw-deprecation
+--trace-deprecation

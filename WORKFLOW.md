@@ -31,6 +31,14 @@ http://eslint.org/docs/user-guide/configuring
 //nodesecurity.io
 npm run nsp
 
+//profiling
+node --prof some.js
+npm install -g node-tick 
+node-tick-processor v8.log
+
+//debugging
+set DEBUG=*
+node --debug some.js
 
 
 // https://flowtype.org/docs/getting-started.html
@@ -62,3 +70,14 @@ Infinit Storage Platform
 https://github.com/insin/package-config-checker
 https://github.com/semantic-release/semantic-release
 https://github.com/commitizen/cz-cli
+
+openssl req -new -x509 -days 9000 -config ca1.cnf -keyout ca1-key.pem -out ca1-cert.pem
+openssl genrsa -out agent1-key.pem 1024
+openssl req -new -config agent1.cnf -key agent1-key.pem -out agent1-csr.pem
+openssl x509 -req -days 9000 -passin "pass:password" -in agent1-csr.pem -CA ca1-cert.pem -CAkey ca1-key.pem -CAcreateserial -out agent1-cert.pem
+openssl verify -CAfile ca1-cert.pem agent1-cert.pem
+openssl genrsa -out agent2-key.pem 1024
+openssl req -new -config agent2.cnf -key agent2-key.pem -out agent2-csr.pem
+openssl x509 -req -days 9000 -passin "pass:password" -in agent2-csr.pem -CA ca1-cert.pem -CAkey ca1-key.pem -CAcreateserial -out agent2-cert.pem
+openssl verify -CAfile ca1-cert.pem agent2-cert.pem
+rm -f *.pem *.srl

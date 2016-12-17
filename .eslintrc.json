@@ -52,12 +52,16 @@
     "standard",
     "promise",
     "flowtype",
-    "react"
+    "react",
+    "mocha"
   ],
   "settings": {
     "flowtype": {
       "onlyFilesWithFlowAnnotation": true
-    }
+    },
+    "html/indent": "0",
+    "html/report-bad-indent": 2,
+    "html/xml-mode": true
   },
   "rules": {
     "accessor-pairs": 2,
@@ -243,6 +247,23 @@
     ],
     "flowtype/use-flow-type": 1,
     "flowtype/valid-syntax": 1,
+    "mocha/no-exclusive-tests": 2,
+    "mocha/no-skipped-tests": 2,
+    "mocha/no-pending-tests": 2,
+    "mocha/handle-done-callback": 2,
+    "mocha/no-synchronous-tests": 2,
+    "mocha/no-global-tests": 2,
+    "mocha/no-return-and-callback": 2,
+    "mocha/valid-test-description": 2,
+    "mocha/valid-suite-description": 2,
+    "mocha/no-sibling-hooks": 2,
+    "mocha/no-mocha-arrows": 2,
+    "mocha/no-hooks": 2,
+    "mocha/no-hooks-for-single-case": 2,
+    "mocha/no-top-level-hooks": 2,
+    "mocha/no-identical-title": 2,
+    "mocha/max-top-level-suites": 2,
+    "mocha/no-nested-tests": 2,
     "no-console":0,
     "no-unused-vars": 0
   }

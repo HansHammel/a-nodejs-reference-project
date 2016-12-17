@@ -78,7 +78,7 @@
     "eslint-standard": "node ./bin/eslint-standard-cli.js --verbose | snazzy",
     "eslint-standard-fix": "node ./bin/eslint-standard-cli.js --fix | snazzy",
     "start": "node server/server.js",
-    "test": "mocha -c -S -R spec tests/mocha",
+    "test": "mocha --opts test/mocha.opts test/mocha",
     "test-ajsmine-integration": "node ./node_modules/.bin/istanbul cover --include-all-sources jasmine-node ./test/jasmine/integration",
     "test-ajsmine-unit": "node ./node_modules/.bin/istanbul cover --include-all-sources jasmine-node ./test/jasmine/unit",
     "test-jasmine": "npm run test-ajsmine-unit && npm run test-ajsmine-integration",
@@ -107,18 +107,20 @@
     "connect-static": "latest",
     "consolidate": "latest",
     "cookies": "latest",
+    "hiredis": "^0.5.0",
     "ini": "latest",
     "inquirer": "latest",
     "qs": "latest",
     "raw-body": "latest",
     "redbird": "latest",
+    "redis": "^2.6.3",
     "shelljs": "latest",
     "shuffle": "latest",
     "st": "latest",
+    "standard-engine": "latest",
     "swig": "^1.4.2",
     "text-table": "latest",
-    "weighted": "latest",
-    "standard-engine": "latest"
+    "weighted": "latest"
   },
   "devDependencies": {
     "ansi-to-html": "^0.4.2",
@@ -129,6 +131,7 @@
     "eslint-config-standard": "^6.2.1",
     "eslint-config-standard-jsx": "^3.2.0",
     "eslint-plugin-flowtype": "^2.29.1",
+    "eslint-plugin-mocha": "^4.7.0",
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-react": "^6.8.0",
     "eslint-plugin-standard": "^2.0.1",
@@ -146,7 +149,8 @@
     "sinon": "*",
     "snazzy": "^5.0.0",
     "standard": "^8.6.0",
-    "standard-version": "^4.0.0"
+    "standard-version": "^4.0.0",
+    "supertest": "^2.0.1"
   },
   "files": [],
   "keywords": [
