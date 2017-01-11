@@ -1,7 +1,6 @@
 # a-nodejs-reference-project
 A reference node.js project with best practices tooling and workflow automation
 
-[![Package Quality](http://npm.packagequality.com/shield/a-nodejs-reference-project.svg)](http://packagequality.com/#?package=a-nodejs-reference-project)
 [![Inline docs](http://inch-ci.org/github/HansHammel/a-nodejs-reference-project.svg?branch=master)](http://inch-ci.org/github/HansHammel/a-nodejs-reference-project)
 [![star this repo](http://githubbadges.com/star.svg?user=HansHammel&repo=a-nodejs-reference-project&style=flat&color=fff&background=007ec6)](https://github.com/HansHammel/a-nodejs-reference-project)
 [![fork this repo](http://githubbadges.com/fork.svg?user=HansHammel&repo=a-nodejs-reference-project&style=flat&color=fff&background=007ec6)](https://github.com/HansHammel/a-nodejs-reference-project/fork)
