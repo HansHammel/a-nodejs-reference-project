@@ -149,7 +149,7 @@
     "sinon": "*",
     "snazzy": "^5.0.0",
     "standard": "^8.6.0",
-    "standard-version": "^4.0.0",
+    "standard-version": "^8.0.1",
     "supertest": "^2.0.1"
   },
   "files": [],
